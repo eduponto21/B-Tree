@@ -146,7 +146,7 @@ public class ArvoreB<K extends Comparable<? super K>> {
         //# se y não é folha, copia os ponteiros
         //# de y para z
         if(!y.isFolha()) {
-            for(int j = 1; j <= getGrauMin(); j++)
+            for(int j = 0; j < getGrauMin(); j++)
                 z.setFilho(y.getFilho(j+getGrauMin()), j);
         }
         y.setNumChaves(getGrauMin()-1);

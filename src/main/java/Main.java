@@ -34,11 +34,38 @@ public class Main {
         a.insere(80);
         a.insere(25);
         a.insere(75);
-        System.out.println("Árvore B: " + a);
+        System.out.println("Árvore B(a): " + a);
         
         System.out.println(a.busca(50).toString());
         System.out.println(a.busca(25).toString());
         System.out.println(a.busca(40).toString());
         System.out.println(a.busca(70).toString());
+        
+        // H,M,C,W,R,K,Y,F,P,L,T,G,S,A,B,N,O,D,Q
+        ArvoreB<Character> b = new ArvoreB<>(2);
+        b.insere('H');
+        b.insere('M');
+        b.insere('C');
+        b.insere('W');
+        b.insere('R');
+        b.insere('K');
+        b.insere('Y');
+        b.insere('F');
+        b.insere('P');
+        System.out.println("aaa\n");
+        b.insere('L');
+        System.out.println("Árvore B(b): " + b);
+        System.out.println("bbb\n");
+        b.insere('T');
+        System.out.println("bbb\n");
+        b.insere('G');
+        b.insere('S');
+        b.insere('A');
+        b.insere('B');
+        b.insere('N');
+        b.insere('O');
+        b.insere('D');
+        b.insere('Q');
+        System.err.println("Árvore B(b): " + b);
     }
 }
