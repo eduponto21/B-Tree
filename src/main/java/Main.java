@@ -8,6 +8,7 @@ import utfpr.dainf.ct.ed.exemplo.ArvoreB;
  * Teste de implementação de árvore B.
  * 
  * @author Wilson Horstmeyer Bogado <wilson@utfpr.edu.br>
+ * @author Eduardo Darrazão <darrazao@alunos.utfpr.edu.br>
  */
 public class Main {
     
@@ -34,5 +35,10 @@ public class Main {
         a.insere(25);
         a.insere(75);
         System.out.println("Árvore B: " + a);
+        
+        System.out.println(a.busca(50).toString());
+        System.out.println(a.busca(25).toString());
+        System.out.println(a.busca(40).toString());
+        System.out.println(a.busca(70).toString());
     }
 }

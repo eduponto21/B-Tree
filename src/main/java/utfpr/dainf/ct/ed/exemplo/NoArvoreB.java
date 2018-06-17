@@ -7,6 +7,7 @@ import java.util.stream.Collectors;
  * Representa uma página (nó) de uma árvore B.
  * @param <K> O tipo de dado da chave.
  * @author Wilson Horstmeyer Bogado <wilson@utfpr.edu.br>
+ * @author Eduardo Darrazão <darrazao@alunos.utfpr.edu.br>
  */
 public class NoArvoreB<K extends Comparable<? super K>> {
     protected int numChaves;
